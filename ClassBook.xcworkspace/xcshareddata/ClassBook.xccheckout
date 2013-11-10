@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7D57143E-5F1D-4657-8FBF-A573B6072719</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ClassBook</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>791551CE-0143-420C-A52E-61AB6C227C6D</key>
+		<string>http://svn.edu2act.org/svn/apple/ClassBook/trunk/ClassBook</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ClassBook.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>791551CE-0143-420C-A52E-61AB6C227C6D</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>791551CE-0143-420C-A52E-61AB6C227C6D</key>
+		<string>http://edu2act.org@svn.edu2act.org/svn/apple</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>http://edu2act.org@svn.edu2act.org/svn/apple/ClassBook/trunk/ClassBook/ClassBook.xcworkspace</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>791551CE-0143-420C-A52E-61AB6C227C6D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>791551CE-0143-420C-A52E-61AB6C227C6D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ClassBook</string>
+		</dict>
+	</array>
+</dict>
+</plist>

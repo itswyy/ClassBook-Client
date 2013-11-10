@@ -1,0 +1,26 @@
+PODS:
+  - AFNetworking (1.1.0)
+  - FMDB (2.0):
+    - FMDB/standard
+  - FMDB/common (2.0)
+  - FMDB/standard (2.0):
+    - FMDB/common
+  - GMGridView (1.1.1)
+  - MBProgressHUD (0.5)
+  - QuadCurveMenu (0.0.1)
+
+DEPENDENCIES:
+  - AFNetworking (= 1.1.0)
+  - FMDB (= 2.0)
+  - GMGridView (= 1.1.1)
+  - MBProgressHUD (= 0.5)
+  - QuadCurveMenu (= 0.0.1)
+
+SPEC CHECKSUMS:
+  AFNetworking: 761a418233d280c1e0580bcb76ff9cb4c3073d17
+  FMDB: 370eb54b9f057aa4de7cf9c757d103b21ee30ecc
+  GMGridView: a17a31f010990eb8f802abb4cab50e6e03e993ea
+  MBProgressHUD: b23ee11c42253d6d804e8e0bfabdc334e8b2571f
+  QuadCurveMenu: 339756b3178e381fea80e424f8edc1b10af554c8
+
+COCOAPODS: 0.20.2

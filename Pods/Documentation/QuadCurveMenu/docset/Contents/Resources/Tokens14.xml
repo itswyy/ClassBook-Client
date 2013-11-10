@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/QuadCurveDataSourceDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/QuadCurveDataSourceDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuadCurveDataSourceDelegate.h</DeclaredIn>
+			
+			<NodeRef refid="14"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/QuadCurveDataSourceDelegate/numberOfMenuItems</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuadCurveDataSourceDelegate.h</DeclaredIn>			
+			
+			<Declaration>- (int)numberOfMenuItems</Declaration>
+			
+			
+			<Anchor>//api/name/numberOfMenuItems</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/QuadCurveDataSourceDelegate/dataObjectAtIndex:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuadCurveDataSourceDelegate.h</DeclaredIn>			
+			
+			<Declaration>- (id)dataObjectAtIndex:(NSInteger)itemIndex</Declaration>
+			
+			
+			<Anchor>//api/name/dataObjectAtIndex:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

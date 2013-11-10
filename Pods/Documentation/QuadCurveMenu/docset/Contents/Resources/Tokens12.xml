@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/QuadCurveTiltAnimation.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/QuadCurveTiltAnimation</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuadCurveTiltAnimation.h</DeclaredIn>
+			
+			<NodeRef refid="12"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QuadCurveTiltAnimation/setTiltDirection:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuadCurveTiltAnimation.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) float tiltDirection</Declaration>
+			
+			
+			<Anchor>//api/name/tiltDirection</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QuadCurveTiltAnimation/tiltDirection</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuadCurveTiltAnimation.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) float tiltDirection</Declaration>
+			
+			
+			<Anchor>//api/name/tiltDirection</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QuadCurveTiltAnimation/initWithTilt:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuadCurveTiltAnimation.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithTilt:(float)tiltDirection</Declaration>
+			
+			
+			<Anchor>//api/name/initWithTilt:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QuadCurveTiltAnimation/initWithClockwiseTilt</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuadCurveTiltAnimation.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithClockwiseTilt</Declaration>
+			
+			
+			<Anchor>//api/name/initWithClockwiseTilt</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QuadCurveTiltAnimation/initWithCounterClockwiseTilt</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuadCurveTiltAnimation.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithCounterClockwiseTilt</Declaration>
+			
+			
+			<Anchor>//api/name/initWithCounterClockwiseTilt</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

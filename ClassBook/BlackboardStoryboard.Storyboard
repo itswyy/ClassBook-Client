@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="3084" systemVersion="12C54" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="f90-31-uuH">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="2083"/>
+    </dependencies>
+    <scenes>
+        <!--Blackboard View Controller-->
+        <scene sceneID="Ekk-T7-H0Y">
+            <objects>
+                <viewController id="f90-31-uuH" customClass="CBBlackboardViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="CZ4-p5-33u">
+                        <rect key="frame" x="0.0" y="0.0" width="480" height="320"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" image="u9.jpg" id="0Nq-X8-2W5">
+                                <rect key="frame" x="-2" y="0.0" width="483" height="320"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="F09-4G-LSF">
+                                <rect key="frame" x="439" y="280" width="42" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" backgroundImage="u56_normal.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="addNewMessage:" destination="f90-31-uuH" eventType="touchUpInside" id="kCs-qj-ITS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Pbj-U4-ErL">
+                                <rect key="frame" x="151" y="282" width="55" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" backgroundImage="u58_normal.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="backtoPriorBlackboard:" destination="f90-31-uuH" eventType="touchUpInside" id="KDD-Zl-t3v"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="yCN-rM-ilo">
+                                <rect key="frame" x="255" y="282" width="55" height="38"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" backgroundImage="u60_normal.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="gotoNextBlackboard:" destination="f90-31-uuH" eventType="touchUpInside" id="w65-gC-jcR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="72v-Ts-hrW">
+                                <rect key="frame" x="-2" y="-2" width="42" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" backgroundImage="u62_normal.png">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="backToGroupViewController:" destination="f90-31-uuH" eventType="touchUpInside" id="cTz-jA-x7F"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="add" destination="F09-4G-LSF" id="Cn5-Qk-g35"/>
+                        <outlet property="close" destination="72v-Ts-hrW" id="Udf-jh-VeQ"/>
+                        <outlet property="nextBlack" destination="yCN-rM-ilo" id="rum-df-3yl"/>
+                        <outlet property="priorBlack" destination="Pbj-U4-ErL" id="gnb-27-SHJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tgK-Ds-9e7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1405" y="-559"/>
+        </scene>
+        <!--Send Public Msg View Controller-->
+        <scene sceneID="ika-vs-SSw">
+            <objects>
+                <viewController storyboardIdentifier="CBSendPublicMsgViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="6Td-ia-xI0" customClass="CBSendPublicMsgViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="GfB-Cr-uE2">
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Q8R-hM-pDk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-829" y="59"/>
+        </scene>
+        <!--Detail Message View Controller-->
+        <scene sceneID="rBT-mC-uUq">
+            <objects>
+                <viewController id="xEo-ax-Qnw" customClass="CBDetailMessageViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="FFx-ZA-ANG">
+                        <rect key="frame" x="0.0" y="20" width="480" height="300"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="avj-XJ-Krn">
+                                <rect key="frame" x="416" y="0.0" width="55" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="关闭">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="backToBlackboard:" destination="xEo-ax-Qnw" eventType="touchUpInside" id="fpq-bm-m32"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UOR-YR-uJX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-916" y="-1044"/>
+        </scene>
+        <!--Postit Note View Controller-->
+        <scene sceneID="E5g-oC-kyf">
+            <objects>
+                <viewController storyboardIdentifier="CBPostitNoteViewController" id="MWg-SA-ymL" customClass="CBPostitNoteViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qXP-00-cFq">
+                        <rect key="frame" x="0.0" y="20" width="320" height="416"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="nWp-Iv-8gf">
+                                <rect key="frame" x="81" y="53" width="0.0" height="0.0"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.50196081399917603" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <navigationBar contentMode="scaleToFill" id="eNJ-nb-gQq">
+                                <rect key="frame" x="0.0" y="-5" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.5714285714285714" green="0.22509628157547504" blue="0.40064753298784223" alpha="1" colorSpace="calibratedRGB"/>
+                                <items>
+                                    <navigationItem title="留下你们的思念" id="UL5-BX-mzi">
+                                        <barButtonItem key="leftBarButtonItem" title="取消" id="4mO-sy-ZFa">
+                                            <connections>
+                                                <action selector="backToBlackboard:" destination="MWg-SA-ymL" id="US7-D5-3Nb"/>
+                                            </connections>
+                                        </barButtonItem>
+                                        <barButtonItem key="rightBarButtonItem" title="保存" id="OYU-ZL-BFA">
+                                            <connections>
+                                                <action selector="saveNote" destination="MWg-SA-ymL" id="aAD-Ef-7ft"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
+                        <color key="backgroundColor" red="0.99123506466372457" green="1" blue="0.84756066600136648" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <toolbarItems/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ski-Ik-6tS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-813" y="-547"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="u56_normal.png" width="42" height="42"/>
+        <image name="u58_normal.png" width="49" height="40"/>
+        <image name="u60_normal.png" width="49" height="40"/>
+        <image name="u62_normal.png" width="42" height="42"/>
+        <image name="u9.jpg" width="640" height="357"/>
+    </resources>
+    <classes>
+        <class className="CBBlackboardViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/CBBlackboardViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="addNewMessage:"/>
+                <relationship kind="action" name="backToGroupViewController:"/>
+                <relationship kind="action" name="backtoPriorBlackboard:"/>
+                <relationship kind="action" name="gotoNextBlackboard:"/>
+                <relationship kind="action" name="jumpToDetailNote:"/>
+                <relationship kind="outlet" name="add" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="close" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="nextBlack" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="priorBlack" candidateClass="UIButton"/>
+            </relationships>
+        </class>
+        <class className="CBDetailMessageViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/CBDetailMessageViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="backToBlackboard:"/>
+            </relationships>
+        </class>
+        <class className="CBPostitNoteViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/CBPostitNoteViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="backToBlackboard:"/>
+                <relationship kind="action" name="saveNote"/>
+            </relationships>
+        </class>
+        <class className="CBSendPublicMsgViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/CBSendPublicMsgViewController.h"/>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

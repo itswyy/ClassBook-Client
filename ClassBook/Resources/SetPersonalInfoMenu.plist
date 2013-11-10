@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>image</key>
+		<string>email.png</string>
+		<key>key</key>
+		<string>email</string>
+		<key>value</key>
+		<string>邮箱</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>phone.png</string>
+		<key>key</key>
+		<string>tel_num</string>
+		<key>value</key>
+		<string>手机号</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>constellation.png</string>
+		<key>key</key>
+		<string>constellation</string>
+		<key>value</key>
+		<string>星座</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>name.png</string>
+		<key>key</key>
+		<string>real_name</string>
+		<key>value</key>
+		<string>真实姓名</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>qq.png</string>
+		<key>key</key>
+		<string>qq</string>
+		<key>value</key>
+		<string>QQ</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>address.png</string>
+		<key>key</key>
+		<string>address</string>
+		<key>value</key>
+		<string>地址</string>
+	</dict>
+	<dict>
+		<key>image</key>
+		<string>sina_weibo.png</string>
+		<key>key</key>
+		<string>sina_weibo</string>
+		<key>value</key>
+		<string>新浪微博</string>
+	</dict>
+</array>
+</plist>

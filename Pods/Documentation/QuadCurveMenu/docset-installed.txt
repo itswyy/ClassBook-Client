@@ -1,0 +1,4 @@
+Documentation set was installed to Xcode!
+
+Path: /Users/wtlucky/Library/Developer/Shared/Documentation/DocSets/org.cocoapods.QuadCurveMenu-0.0.1.docset
+Time: 2013-03-02 06:12:28 +0000

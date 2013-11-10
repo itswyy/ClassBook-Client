@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/AGMedallionView.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/AGMedallionView</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AGMedallionView.h</DeclaredIn>
+			
+			<NodeRef refid="1"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGMedallionView/setImage:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AGMedallionView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIImage *image</Declaration>
+			
+			
+			<Anchor>//api/name/image</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AGMedallionView/image</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AGMedallionView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIImage *image</Declaration>
+			
+			
+			<Anchor>//api/name/image</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGMedallionView/setHighlightedImage:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AGMedallionView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIImage *highlightedImage</Declaration>
+			
+			
+			<Anchor>//api/name/highlightedImage</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AGMedallionView/highlightedImage</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AGMedallionView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIImage *highlightedImage</Declaration>
+			
+			
+			<Anchor>//api/name/highlightedImage</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGMedallionView/setBorderColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AGMedallionView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIColor *borderColor</Declaration>
+			
+			
+			<Anchor>//api/name/borderColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AGMedallionView/borderColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AGMedallionView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIColor *borderColor</Declaration>
+			
+			
+			<Anchor>//api/name/borderColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGMedallionView/setBorderWidth:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AGMedallionView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) CGFloat borderWidth</Declaration>
+			
+			
+			<Anchor>//api/name/borderWidth</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AGMedallionView/borderWidth</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AGMedallionView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) CGFloat borderWidth</Declaration>
+			
+			
+			<Anchor>//api/name/borderWidth</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGMedallionView/setShadowColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AGMedallionView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIColor *shadowColor</Declaration>
+			
+			
+			<Anchor>//api/name/shadowColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AGMedallionView/shadowColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AGMedallionView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIColor *shadowColor</Declaration>
+			
+			
+			<Anchor>//api/name/shadowColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGMedallionView/setShadowOffset:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AGMedallionView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) CGSize shadowOffset</Declaration>
+			
+			
+			<Anchor>//api/name/shadowOffset</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AGMedallionView/shadowOffset</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AGMedallionView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) CGSize shadowOffset</Declaration>
+			
+			
+			<Anchor>//api/name/shadowOffset</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGMedallionView/setShadowBlur:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AGMedallionView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) CGFloat shadowBlur</Declaration>
+			
+			
+			<Anchor>//api/name/shadowBlur</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AGMedallionView/shadowBlur</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AGMedallionView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) CGFloat shadowBlur</Declaration>
+			
+			
+			<Anchor>//api/name/shadowBlur</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGMedallionView/setHighlighted:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AGMedallionView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL highlighted</Declaration>
+			
+			
+			<Anchor>//api/name/highlighted</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AGMedallionView/highlighted</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AGMedallionView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) BOOL highlighted</Declaration>
+			
+			
+			<Anchor>//api/name/highlighted</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGMedallionView/setProgressColor:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AGMedallionView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIColor *progressColor</Declaration>
+			
+			
+			<Anchor>//api/name/progressColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AGMedallionView/progressColor</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AGMedallionView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) UIColor *progressColor</Declaration>
+			
+			
+			<Anchor>//api/name/progressColor</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/AGMedallionView/setProgress:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AGMedallionView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) CGFloat progress</Declaration>
+			
+			
+			<Anchor>//api/name/progress</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/AGMedallionView/progress</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>AGMedallionView.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) CGFloat progress</Declaration>
+			
+			
+			<Anchor>//api/name/progress</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

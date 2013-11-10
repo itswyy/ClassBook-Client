@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/QuadCurveRadialDirector.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/QuadCurveRadialDirector</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuadCurveRadialDirector.h</DeclaredIn>
+			
+			<NodeRef refid="10"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QuadCurveRadialDirector/setNearRadius:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuadCurveRadialDirector.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGFloat nearRadius</Declaration>
+			
+			
+			<Anchor>//api/name/nearRadius</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QuadCurveRadialDirector/nearRadius</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuadCurveRadialDirector.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGFloat nearRadius</Declaration>
+			
+			
+			<Anchor>//api/name/nearRadius</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QuadCurveRadialDirector/setEndRadius:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuadCurveRadialDirector.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGFloat endRadius</Declaration>
+			
+			
+			<Anchor>//api/name/endRadius</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QuadCurveRadialDirector/endRadius</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuadCurveRadialDirector.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGFloat endRadius</Declaration>
+			
+			
+			<Anchor>//api/name/endRadius</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QuadCurveRadialDirector/setFarRadius:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuadCurveRadialDirector.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGFloat farRadius</Declaration>
+			
+			
+			<Anchor>//api/name/farRadius</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QuadCurveRadialDirector/farRadius</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuadCurveRadialDirector.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGFloat farRadius</Declaration>
+			
+			
+			<Anchor>//api/name/farRadius</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QuadCurveRadialDirector/setRotateAngle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuadCurveRadialDirector.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGFloat rotateAngle</Declaration>
+			
+			
+			<Anchor>//api/name/rotateAngle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QuadCurveRadialDirector/rotateAngle</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuadCurveRadialDirector.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGFloat rotateAngle</Declaration>
+			
+			
+			<Anchor>//api/name/rotateAngle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QuadCurveRadialDirector/setMenuWholeAngle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuadCurveRadialDirector.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGFloat menuWholeAngle</Declaration>
+			
+			
+			<Anchor>//api/name/menuWholeAngle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QuadCurveRadialDirector/menuWholeAngle</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuadCurveRadialDirector.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGFloat menuWholeAngle</Declaration>
+			
+			
+			<Anchor>//api/name/menuWholeAngle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QuadCurveRadialDirector/initWithMenuWholeAngle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuadCurveRadialDirector.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithMenuWholeAngle:(CGFloat)menuWholeAngle</Declaration>
+			
+			
+			<Anchor>//api/name/initWithMenuWholeAngle:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QuadCurveRadialDirector/initWithMenuWholeAngle:andInitialRotation:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuadCurveRadialDirector.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithMenuWholeAngle:(CGFloat)menuWholeAngle andInitialRotation:(CGFloat)rotateAngle</Declaration>
+			
+			
+			<Anchor>//api/name/initWithMenuWholeAngle:andInitialRotation:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/QuadCurveMotionDirector.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/QuadCurveMotionDirector</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuadCurveMotionDirector.h</DeclaredIn>
+			
+			<NodeRef refid="18"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/QuadCurveMotionDirector/positionMenuItem:atIndex:ofCount:fromMenu:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuadCurveMotionDirector.h</DeclaredIn>			
+			
+			<Declaration>- (void)positionMenuItem:(QuadCurveMenuItem *)item atIndex:(int)index ofCount:(int)count fromMenu:(QuadCurveMenuItem *)mainMenuItem</Declaration>
+			
+			
+			<Anchor>//api/name/positionMenuItem:atIndex:ofCount:fromMenu:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

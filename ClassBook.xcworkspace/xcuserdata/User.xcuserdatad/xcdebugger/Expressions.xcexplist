@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[CBSetPersonalInfoController textFieldDidEndEditing:]:CBSetPersonalInfoController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "offSet">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[CBUserListViewController tableView:didSelectRowAtIndexPath:]:CBUserListViewController.m">
+      </ContextState>
+      <ContextState
+         contextName = "-[CBPersonalDetailViewController insertDataToDataBase:]:CBPersonalDetailViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "keyArray">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[iCarouselViewController numberOfItemsInCarousel:]:iCarouselViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "groupId">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[CBSetPersonalInfoController tableView:viewForHeaderInSection:]:CBSetPersonalInfoController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "name">
+            </PersistentString>
+            <PersistentString
+               value = "_name">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[CBPersonViewController tableView:cellForRowAtIndexPath:]:CBPersonViewController.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.dataSource">
+            </PersistentString>
+            <PersistentString
+               value = "self.personalDetailDic">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[CBUserListViewController tableView:cellForRowAtIndexPath:]:CBUserListViewController.m">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

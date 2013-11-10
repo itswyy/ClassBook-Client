@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/QuadCurveMenuItemEventDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/QuadCurveMenuItemEventDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuadCurveMenuItemEventDelegate.h</DeclaredIn>
+			
+			<NodeRef refid="16"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/QuadCurveMenuItemEventDelegate/quadCurveMenuItemLongPressed:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuadCurveMenuItemEventDelegate.h</DeclaredIn>			
+			
+			<Declaration>- (void)quadCurveMenuItemLongPressed:(QuadCurveMenuItem *)item</Declaration>
+			
+			
+			<Anchor>//api/name/quadCurveMenuItemLongPressed:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/QuadCurveMenuItemEventDelegate/quadCurveMenuItemTapped:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuadCurveMenuItemEventDelegate.h</DeclaredIn>			
+			
+			<Declaration>- (void)quadCurveMenuItemTapped:(QuadCurveMenuItem *)item</Declaration>
+			
+			
+			<Anchor>//api/name/quadCurveMenuItemTapped:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

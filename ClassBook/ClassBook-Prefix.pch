@@ -1,0 +1,27 @@
+//
+// Prefix header for all source files of the 'ClassBook' target in the 'ClassBook' project
+//
+
+#ifdef __OBJC__
+    #import <SystemConfiguration/SystemConfiguration.h>
+    #import <MobileCoreServices/MobileCoreServices.h>
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #import "AFNetworking.h"
+    #import "CBConstantDeclare.h"
+    #import "ClassBookAPIClient.h"
+    #import "CBCurrentUser.h"
+    #import "CBCommonFunction.h"
+#endif
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef DEBUG
+#   define DLog(fmt, ...) {NSLog((@"***FUNCTION:%s [Line %d] ***" fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);}
+#else
+#   define DLog(...) /* */
+#endif
+

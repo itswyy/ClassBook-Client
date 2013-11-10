@@ -1,0 +1,658 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>QuadCurveMenu Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<meta name="viewport" content="width=550" />
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.1 (build 840)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">QuadCurveMenu 0.0.1 </a></h1>
+				<a id="developerHome" href="../index.html">Franklin Webber</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">QuadCurveMenu Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/closeItemAnimation">&nbsp;&nbsp;&nbsp;&nbsp;closeItemAnimation</option>
+	
+	<option value="//api/name/dataSource">&nbsp;&nbsp;&nbsp;&nbsp;dataSource</option>
+	
+	<option value="//api/name/delegate">&nbsp;&nbsp;&nbsp;&nbsp;delegate</option>
+	
+	<option value="//api/name/expandItemAnimation">&nbsp;&nbsp;&nbsp;&nbsp;expandItemAnimation</option>
+	
+	<option value="//api/name/expanding">&nbsp;&nbsp;&nbsp;&nbsp;expanding</option>
+	
+	<option value="//api/name/mainMenuCloseAnimation">&nbsp;&nbsp;&nbsp;&nbsp;mainMenuCloseAnimation</option>
+	
+	<option value="//api/name/mainMenuExpandAnimation">&nbsp;&nbsp;&nbsp;&nbsp;mainMenuExpandAnimation</option>
+	
+	<option value="//api/name/mainMenuItemFactory">&nbsp;&nbsp;&nbsp;&nbsp;mainMenuItemFactory</option>
+	
+	<option value="//api/name/menuDirector">&nbsp;&nbsp;&nbsp;&nbsp;menuDirector</option>
+	
+	<option value="//api/name/menuItemFactory">&nbsp;&nbsp;&nbsp;&nbsp;menuItemFactory</option>
+	
+	<option value="//api/name/selectedAnimation">&nbsp;&nbsp;&nbsp;&nbsp;selectedAnimation</option>
+	
+	<option value="//api/name/unselectedanimation">&nbsp;&nbsp;&nbsp;&nbsp;unselectedanimation</option>
+	
+	
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/closeMenu">&nbsp;&nbsp;&nbsp;&nbsp;- closeMenu</option>
+	
+	<option value="//api/name/expandMenu">&nbsp;&nbsp;&nbsp;&nbsp;- expandMenu</option>
+	
+	<option value="//api/name/initWithFrame:centerPoint:dataSource:mainMenuFactory:menuItemFactory:">&nbsp;&nbsp;&nbsp;&nbsp;- initWithFrame:centerPoint:dataSource:mainMenuFactory:menuItemFactory:</option>
+	
+	<option value="//api/name/initWithFrame:centerPoint:dataSource:mainMenuFactory:menuItemFactory:menuDirector:">&nbsp;&nbsp;&nbsp;&nbsp;- initWithFrame:centerPoint:dataSource:mainMenuFactory:menuItemFactory:menuDirector:</option>
+	
+	<option value="//api/name/initWithFrame:dataSource:">&nbsp;&nbsp;&nbsp;&nbsp;- initWithFrame:dataSource:</option>
+	
+	<option value="//api/name/initWithFrame:withArray:">&nbsp;&nbsp;&nbsp;&nbsp;- initWithFrame:withArray:</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/closeItemAnimation">closeItemAnimation</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/dataSource">dataSource</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/delegate">delegate</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/expandItemAnimation">expandItemAnimation</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/expanding">expanding</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/mainMenuCloseAnimation">mainMenuCloseAnimation</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/mainMenuExpandAnimation">mainMenuExpandAnimation</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/mainMenuItemFactory">mainMenuItemFactory</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/menuDirector">menuDirector</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/menuItemFactory">menuItemFactory</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/selectedAnimation">selectedAnimation</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/unselectedanimation">unselectedanimation</a></span></li>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/closeMenu">closeMenu</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/expandMenu">expandMenu</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initWithFrame:centerPoint:dataSource:mainMenuFactory:menuItemFactory:">initWithFrame:centerPoint:dataSource:mainMenuFactory:menuItemFactory:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initWithFrame:centerPoint:dataSource:mainMenuFactory:menuItemFactory:menuDirector:">initWithFrame:centerPoint:dataSource:mainMenuFactory:menuItemFactory:menuDirector:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initWithFrame:dataSource:">initWithFrame:dataSource:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initWithFrame:withArray:">initWithFrame:withArray:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="QuadCurveMenu Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">QuadCurveMenu Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value">UIView</td>
+</tr><tr>
+	<td class="specification-title">Conforms to</td>
+	<td class="specification-value"><a href="../Protocols/QuadCurveMenuItemEventDelegate.html">QuadCurveMenuItemEventDelegate</a></td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">QuadCurveMenu.h</td>
+</tr>
+						</tbody></table></div>
+					
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/menuDirector">&nbsp;&nbsp;menuDirector</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/mainMenuItemFactory">&nbsp;&nbsp;mainMenuItemFactory</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/menuItemFactory">&nbsp;&nbsp;menuItemFactory</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/selectedAnimation">&nbsp;&nbsp;selectedAnimation</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/unselectedanimation">&nbsp;&nbsp;unselectedanimation</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/expandItemAnimation">&nbsp;&nbsp;expandItemAnimation</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/closeItemAnimation">&nbsp;&nbsp;closeItemAnimation</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/mainMenuExpandAnimation">&nbsp;&nbsp;mainMenuExpandAnimation</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/mainMenuCloseAnimation">&nbsp;&nbsp;mainMenuCloseAnimation</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/delegate">&nbsp;&nbsp;delegate</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/dataSource">&nbsp;&nbsp;dataSource</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initWithFrame:withArray:">&ndash;&nbsp;initWithFrame:withArray:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initWithFrame:dataSource:">&ndash;&nbsp;initWithFrame:dataSource:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initWithFrame:centerPoint:dataSource:mainMenuFactory:menuItemFactory:">&ndash;&nbsp;initWithFrame:centerPoint:dataSource:mainMenuFactory:menuItemFactory:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initWithFrame:centerPoint:dataSource:mainMenuFactory:menuItemFactory:menuDirector:">&ndash;&nbsp;initWithFrame:centerPoint:dataSource:mainMenuFactory:menuItemFactory:menuDirector:</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/expanding">&nbsp;&nbsp;expanding</a></code>
+		
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/expandMenu">&ndash;&nbsp;expandMenu</a></code>
+		
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/closeMenu">&ndash;&nbsp;closeMenu</a></code>
+		
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/closeItemAnimation" title="closeItemAnimation"></a>
+	<h3 class="subsubtitle method-title">closeItemAnimation</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) id&lt;QuadCurveAnimation&gt; closeItemAnimation</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/dataSource" title="dataSource"></a>
+	<h3 class="subsubtitle method-title">dataSource</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) id&lt;QuadCurveDataSourceDelegate&gt; dataSource</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/delegate" title="delegate"></a>
+	<h3 class="subsubtitle method-title">delegate</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) id&lt;QuadCurveMenuDelegate&gt; delegate</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/expandItemAnimation" title="expandItemAnimation"></a>
+	<h3 class="subsubtitle method-title">expandItemAnimation</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) id&lt;QuadCurveAnimation&gt; expandItemAnimation</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/expanding" title="expanding"></a>
+	<h3 class="subsubtitle method-title">expanding</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, getter=isExpanding) BOOL expanding</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/mainMenuCloseAnimation" title="mainMenuCloseAnimation"></a>
+	<h3 class="subsubtitle method-title">mainMenuCloseAnimation</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) id&lt;QuadCurveAnimation&gt; mainMenuCloseAnimation</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/mainMenuExpandAnimation" title="mainMenuExpandAnimation"></a>
+	<h3 class="subsubtitle method-title">mainMenuExpandAnimation</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) id&lt;QuadCurveAnimation&gt; mainMenuExpandAnimation</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/mainMenuItemFactory" title="mainMenuItemFactory"></a>
+	<h3 class="subsubtitle method-title">mainMenuItemFactory</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) id&lt;QuadCurveMenuItemFactory&gt; mainMenuItemFactory</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/menuDirector" title="menuDirector"></a>
+	<h3 class="subsubtitle method-title">menuDirector</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) id&lt;QuadCurveMotionDirector&gt; menuDirector</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/menuItemFactory" title="menuItemFactory"></a>
+	<h3 class="subsubtitle method-title">menuItemFactory</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) id&lt;QuadCurveMenuItemFactory&gt; menuItemFactory</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/selectedAnimation" title="selectedAnimation"></a>
+	<h3 class="subsubtitle method-title">selectedAnimation</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) id&lt;QuadCurveAnimation&gt; selectedAnimation</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/unselectedanimation" title="unselectedanimation"></a>
+	<h3 class="subsubtitle method-title">unselectedanimation</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) id&lt;QuadCurveAnimation&gt; unselectedanimation</code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/closeMenu" title="closeMenu"></a>
+	<h3 class="subsubtitle method-title">closeMenu</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)closeMenu</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/expandMenu" title="expandMenu"></a>
+	<h3 class="subsubtitle method-title">expandMenu</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (void)expandMenu</code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/initWithFrame:centerPoint:dataSource:mainMenuFactory:menuItemFactory:" title="initWithFrame:centerPoint:dataSource:mainMenuFactory:menuItemFactory:"></a>
+	<h3 class="subsubtitle method-title">initWithFrame:centerPoint:dataSource:mainMenuFactory:menuItemFactory:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (id)initWithFrame:(CGRect)<em>frame</em> centerPoint:(CGPoint)<em>centerPoint</em> dataSource:(id&lt;QuadCurveDataSourceDelegate&gt;)<em>dataSource</em> mainMenuFactory:(id&lt;QuadCurveMenuItemFactory&gt;)<em>mainFactory</em> menuItemFactory:(id&lt;QuadCurveMenuItemFactory&gt;)<em>menuItemFactory</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/initWithFrame:centerPoint:dataSource:mainMenuFactory:menuItemFactory:menuDirector:" title="initWithFrame:centerPoint:dataSource:mainMenuFactory:menuItemFactory:menuDirector:"></a>
+	<h3 class="subsubtitle method-title">initWithFrame:centerPoint:dataSource:mainMenuFactory:menuItemFactory:menuDirector:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (id)initWithFrame:(CGRect)<em>frame</em> centerPoint:(CGPoint)<em>centerPoint</em> dataSource:(id&lt;QuadCurveDataSourceDelegate&gt;)<em>dataSource</em> mainMenuFactory:(id&lt;QuadCurveMenuItemFactory&gt;)<em>mainFactory</em> menuItemFactory:(id&lt;QuadCurveMenuItemFactory&gt;)<em>menuItemFactory</em> menuDirector:(id&lt;QuadCurveMotionDirector&gt;)<em>motionDirector</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/initWithFrame:dataSource:" title="initWithFrame:dataSource:"></a>
+	<h3 class="subsubtitle method-title">initWithFrame:dataSource:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (id)initWithFrame:(CGRect)<em>frame</em> dataSource:(id&lt;QuadCurveDataSourceDelegate&gt;)<em>dataSource</em></code></div>
+
+    
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/initWithFrame:withArray:" title="initWithFrame:withArray:"></a>
+	<h3 class="subsubtitle method-title">initWithFrame:withArray:</h3>
+	
+	
+
+	<div class="method-subsection method-declaration"><code>- (id)initWithFrame:(CGRect)<em>frame</em> withArray:(NSArray *)<em>array</em></code></div>
+
+    
+</div>
+						
+					</div>
+					
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2013 Franklin Webber. All rights reserved. (Last updated: 2013-03-02)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.1 (build 840)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/QuadCurveMenuItem.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/QuadCurveMenuItem</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuadCurveMenuItem.h</DeclaredIn>
+			
+			<NodeRef refid="9"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QuadCurveMenuItem/setDataObject:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuadCurveMenuItem.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) id dataObject</Declaration>
+			
+			
+			<Anchor>//api/name/dataObject</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QuadCurveMenuItem/dataObject</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuadCurveMenuItem.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) id dataObject</Declaration>
+			
+			
+			<Anchor>//api/name/dataObject</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QuadCurveMenuItem/setStartPoint:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuadCurveMenuItem.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) CGPoint startPoint</Declaration>
+			
+			
+			<Anchor>//api/name/startPoint</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QuadCurveMenuItem/startPoint</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuadCurveMenuItem.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) CGPoint startPoint</Declaration>
+			
+			
+			<Anchor>//api/name/startPoint</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QuadCurveMenuItem/setEndPoint:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuadCurveMenuItem.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) CGPoint endPoint</Declaration>
+			
+			
+			<Anchor>//api/name/endPoint</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QuadCurveMenuItem/endPoint</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuadCurveMenuItem.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) CGPoint endPoint</Declaration>
+			
+			
+			<Anchor>//api/name/endPoint</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QuadCurveMenuItem/setNearPoint:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuadCurveMenuItem.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) CGPoint nearPoint</Declaration>
+			
+			
+			<Anchor>//api/name/nearPoint</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QuadCurveMenuItem/nearPoint</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuadCurveMenuItem.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) CGPoint nearPoint</Declaration>
+			
+			
+			<Anchor>//api/name/nearPoint</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QuadCurveMenuItem/setFarPoint:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuadCurveMenuItem.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) CGPoint farPoint</Declaration>
+			
+			
+			<Anchor>//api/name/farPoint</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QuadCurveMenuItem/farPoint</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuadCurveMenuItem.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic) CGPoint farPoint</Declaration>
+			
+			
+			<Anchor>//api/name/farPoint</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QuadCurveMenuItem/setDelegate:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuadCurveMenuItem.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) id&lt;QuadCurveMenuItemEventDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QuadCurveMenuItem/delegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuadCurveMenuItem.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, strong) id&lt;QuadCurveMenuItemEventDelegate&gt; delegate</Declaration>
+			
+			
+			<Anchor>//api/name/delegate</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QuadCurveMenuItem/initWithImage:highlightedImage:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuadCurveMenuItem.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithImage:(UIImage *)image highlightedImage:(UIImage *)highlightedImage</Declaration>
+			
+			
+			<Anchor>//api/name/initWithImage:highlightedImage:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

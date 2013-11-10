@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DocSetNodes version="1.0">
+    <TOC>
+        <Node type="folder">
+            <Name>QuadCurveMenu 0.0.1</Name>
+            <Path>index.html</Path>
+			<Subnodes>
+                
+				
+				<Node type="folder">
+					<Name>Classes</Name>
+					<Path>index.html</Path>
+					<Subnodes>
+						<NodeRef refid="1"/>
+						<NodeRef refid="2"/>
+						<NodeRef refid="3"/>
+						<NodeRef refid="4"/>
+						<NodeRef refid="5"/>
+						<NodeRef refid="6"/>
+						<NodeRef refid="7"/>
+						<NodeRef refid="8"/>
+						<NodeRef refid="9"/>
+						<NodeRef refid="10"/>
+						<NodeRef refid="11"/>
+						<NodeRef refid="12"/>
+						
+					</Subnodes>
+				</Node>
+				
+				
+				
+				<Node type="folder">
+					<Name>Protocols</Name>
+					<Path>index.html</Path>
+					<Subnodes>
+						<NodeRef refid="13"/>
+						<NodeRef refid="14"/>
+						<NodeRef refid="15"/>
+						<NodeRef refid="16"/>
+						<NodeRef refid="17"/>
+						<NodeRef refid="18"/>
+						
+					</Subnodes>
+				</Node>
+				
+			</Subnodes>
+        </Node>
+    </TOC>
+	<Library>
+		
+		<Node id="1">
+			<Name>AGMedallionView</Name>
+			<Path>Classes/AGMedallionView.html</Path>
+		</Node>
+		<Node id="2">
+			<Name>QuadCurveBlowupAnimation</Name>
+			<Path>Classes/QuadCurveBlowupAnimation.html</Path>
+		</Node>
+		<Node id="3">
+			<Name>QuadCurveDefaultDataSource</Name>
+			<Path>Classes/QuadCurveDefaultDataSource.html</Path>
+		</Node>
+		<Node id="4">
+			<Name>QuadCurveDefaultMenuItemFactory</Name>
+			<Path>Classes/QuadCurveDefaultMenuItemFactory.html</Path>
+		</Node>
+		<Node id="5">
+			<Name>QuadCurveItemCloseAnimation</Name>
+			<Path>Classes/QuadCurveItemCloseAnimation.html</Path>
+		</Node>
+		<Node id="6">
+			<Name>QuadCurveItemExpandAnimation</Name>
+			<Path>Classes/QuadCurveItemExpandAnimation.html</Path>
+		</Node>
+		<Node id="7">
+			<Name>QuadCurveLinearDirector</Name>
+			<Path>Classes/QuadCurveLinearDirector.html</Path>
+		</Node>
+		<Node id="8">
+			<Name>QuadCurveMenu</Name>
+			<Path>Classes/QuadCurveMenu.html</Path>
+		</Node>
+		<Node id="9">
+			<Name>QuadCurveMenuItem</Name>
+			<Path>Classes/QuadCurveMenuItem.html</Path>
+		</Node>
+		<Node id="10">
+			<Name>QuadCurveRadialDirector</Name>
+			<Path>Classes/QuadCurveRadialDirector.html</Path>
+		</Node>
+		<Node id="11">
+			<Name>QuadCurveShrinkAnimation</Name>
+			<Path>Classes/QuadCurveShrinkAnimation.html</Path>
+		</Node>
+		<Node id="12">
+			<Name>QuadCurveTiltAnimation</Name>
+			<Path>Classes/QuadCurveTiltAnimation.html</Path>
+		</Node>
+		
+		
+		<Node id="13">
+			<Name>QuadCurveAnimation</Name>
+			<Path>Protocols/QuadCurveAnimation.html</Path>
+		</Node>
+		<Node id="14">
+			<Name>QuadCurveDataSourceDelegate</Name>
+			<Path>Protocols/QuadCurveDataSourceDelegate.html</Path>
+		</Node>
+		<Node id="15">
+			<Name>QuadCurveMenuDelegate</Name>
+			<Path>Protocols/QuadCurveMenuDelegate.html</Path>
+		</Node>
+		<Node id="16">
+			<Name>QuadCurveMenuItemEventDelegate</Name>
+			<Path>Protocols/QuadCurveMenuItemEventDelegate.html</Path>
+		</Node>
+		<Node id="17">
+			<Name>QuadCurveMenuItemFactory</Name>
+			<Path>Protocols/QuadCurveMenuItemFactory.html</Path>
+		</Node>
+		<Node id="18">
+			<Name>QuadCurveMotionDirector</Name>
+			<Path>Protocols/QuadCurveMotionDirector.html</Path>
+		</Node>
+		
+	</Library>
+</DocSetNodes>

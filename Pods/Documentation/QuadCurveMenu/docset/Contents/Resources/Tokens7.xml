@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/QuadCurveLinearDirector.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/QuadCurveLinearDirector</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuadCurveLinearDirector.h</DeclaredIn>
+			
+			<NodeRef refid="7"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QuadCurveLinearDirector/initWithAngle:andPadding:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuadCurveLinearDirector.h</DeclaredIn>			
+			
+			<Declaration>- (id)initWithAngle:(CGFloat)angle andPadding:(CGFloat)padding</Declaration>
+			
+			
+			<Anchor>//api/name/initWithAngle:andPadding:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QuadCurveLinearDirector/setAngle:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuadCurveLinearDirector.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGFloat angle</Declaration>
+			
+			
+			<Anchor>//api/name/angle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QuadCurveLinearDirector/angle</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuadCurveLinearDirector.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGFloat angle</Declaration>
+			
+			
+			<Anchor>//api/name/angle</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/QuadCurveLinearDirector/setPadding:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuadCurveLinearDirector.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGFloat padding</Declaration>
+			
+			
+			<Anchor>//api/name/padding</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/QuadCurveLinearDirector/padding</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuadCurveLinearDirector.h</DeclaredIn>			
+			
+			<Declaration>@property (nonatomic, assign) CGFloat padding</Declaration>
+			
+			
+			<Anchor>//api/name/padding</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

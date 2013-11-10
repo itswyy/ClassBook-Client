@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Protocols/QuadCurveMenuDelegate.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intf/QuadCurveMenuDelegate</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuadCurveMenuDelegate.h</DeclaredIn>
+			
+			<NodeRef refid="15"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/QuadCurveMenuDelegate/quadCurveMenu:didTapMenu:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuadCurveMenuDelegate.h</DeclaredIn>			
+			
+			<Declaration>- (void)quadCurveMenu:(QuadCurveMenu *)menu didTapMenu:(QuadCurveMenuItem *)mainMenuItem</Declaration>
+			
+			
+			<Anchor>//api/name/quadCurveMenu:didTapMenu:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/QuadCurveMenuDelegate/quadCurveMenu:didLongPressMenu:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuadCurveMenuDelegate.h</DeclaredIn>			
+			
+			<Declaration>- (void)quadCurveMenu:(QuadCurveMenu *)menu didLongPressMenu:(QuadCurveMenuItem *)mainMenuItem</Declaration>
+			
+			
+			<Anchor>//api/name/quadCurveMenu:didLongPressMenu:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/QuadCurveMenuDelegate/quadCurveMenuShouldExpand:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuadCurveMenuDelegate.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)quadCurveMenuShouldExpand:(QuadCurveMenu *)menu</Declaration>
+			
+			
+			<Anchor>//api/name/quadCurveMenuShouldExpand:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/QuadCurveMenuDelegate/quadCurveMenuShouldClose:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuadCurveMenuDelegate.h</DeclaredIn>			
+			
+			<Declaration>- (BOOL)quadCurveMenuShouldClose:(QuadCurveMenu *)menu</Declaration>
+			
+			
+			<Anchor>//api/name/quadCurveMenuShouldClose:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/QuadCurveMenuDelegate/quadCurveMenuWillExpand:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuadCurveMenuDelegate.h</DeclaredIn>			
+			
+			<Declaration>- (void)quadCurveMenuWillExpand:(QuadCurveMenu *)menu</Declaration>
+			
+			
+			<Anchor>//api/name/quadCurveMenuWillExpand:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/QuadCurveMenuDelegate/quadCurveMenuDidExpand:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuadCurveMenuDelegate.h</DeclaredIn>			
+			
+			<Declaration>- (void)quadCurveMenuDidExpand:(QuadCurveMenu *)menu</Declaration>
+			
+			
+			<Anchor>//api/name/quadCurveMenuDidExpand:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/QuadCurveMenuDelegate/quadCurveMenuWillClose:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuadCurveMenuDelegate.h</DeclaredIn>			
+			
+			<Declaration>- (void)quadCurveMenuWillClose:(QuadCurveMenu *)menu</Declaration>
+			
+			
+			<Anchor>//api/name/quadCurveMenuWillClose:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/QuadCurveMenuDelegate/quadCurveMenuDidClose:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuadCurveMenuDelegate.h</DeclaredIn>			
+			
+			<Declaration>- (void)quadCurveMenuDidClose:(QuadCurveMenu *)menu</Declaration>
+			
+			
+			<Anchor>//api/name/quadCurveMenuDidClose:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/QuadCurveMenuDelegate/quadCurveMenu:didTapMenuItem:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuadCurveMenuDelegate.h</DeclaredIn>			
+			
+			<Declaration>- (void)quadCurveMenu:(QuadCurveMenu *)menu didTapMenuItem:(QuadCurveMenuItem *)menuItem</Declaration>
+			
+			
+			<Anchor>//api/name/quadCurveMenu:didTapMenuItem:</Anchor>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/intfm/QuadCurveMenuDelegate/quadCurveMenu:didLongPressMenuItem:</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>QuadCurveMenuDelegate.h</DeclaredIn>			
+			
+			<Declaration>- (void)quadCurveMenu:(QuadCurveMenu *)menu didLongPressMenuItem:(QuadCurveMenuItem *)menuItem</Declaration>
+			
+			
+			<Anchor>//api/name/quadCurveMenu:didLongPressMenuItem:</Anchor>
+		</Token>
+		
+	</File>
+</Tokens>

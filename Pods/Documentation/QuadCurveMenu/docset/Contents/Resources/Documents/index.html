@@ -1,0 +1,362 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>QuadCurveMenu 0.0.1 Reference</title>
+		<link rel="stylesheet" type="text/css" href="css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.1 (build 840)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="index.html">QuadCurveMenu 0.0.1 </a></h1>
+				<a id="developerHome" href="index.html">Franklin Webber</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">QuadCurveMenu 0.0.1 Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar"></ul>
+		</header>
+		<article>
+			<div id="overview_contents" role="main">
+				<div class="main-navigation navigation-top">
+					<a href="hierarchy.html">Next</a>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">QuadCurveMenu 0.0.1 Reference</h1>
+					</div>		
+				</div>
+				<div id="container">
+					
+					<div class="section section-overview index-overview">
+						
+						
+						<p><a href="Classes/QuadCurveMenu.html">QuadCurveMenu</a> is a menu with the same look as <a href="https://path.com/">the Path app&rsquo;s menu</a>&rsquo;s story menu.</p>
+
+<p>This is a fork of <a href="https://github.com/levey/AwesomeMenu">levey&rsquo;s AwesomeMenu</a>. I proposed a pull request and this was not what the original author had intended to create. This fork has some notable differences that I outline in the <a href="https://github.com/levey/AwesomeMenu/pull/15">pull request</a>:</p>
+
+<blockquote><p>I really love the menu and wanted to use any data source (not just an array), more touch events, and the ability to manipulate the images and animations. I also wanted the menu items to be able to hold some data object that I could store and retrieve on selection instead of relying on an index.</p></blockquote>
+
+<p>Ultimately this is a much more modular library that allows you to define new functionality for the menu without having to rip the guts out of the existing one.</p>
+
+<ul>
+<li><p>Converted project to ARC</p></li>
+<li><p>AppDelegate in the example is no longer responsible for the menu and an example view controller was created.</p></li>
+<li><p>Menu will generate delegate events for will expand, did expand,
+will close, and did close.</p></li>
+<li><p>Menu will ask a delegate should expand and should close</p></li>
+<li><p>Menu will generate events for tap and long press</p></li>
+<li><p>Menu is populated from a Data Source Delegate</p></li>
+<li><p>Menu is designed by a MenuItemFactory</p></li>
+<li><p>Menu is composed with animations for expand, close, selected, unselected</p></li>
+<li><p>Menu animations are now in their own separate classes</p></li>
+<li><p>Menu items will generate events for tap and long press</p></li>
+<li><p>Menu items are designed by a MenuItemFactory</p></li>
+<li><p>Menu items contain a dataObject</p></li>
+<li><p>Radial / Linear menu styles that is easily re-definable.</p></li>
+</ul>
+
+
+<h2>Getting Started</h2>
+
+<h3>Data Source</h3>
+
+<p>First you define a data source, or have an existing data source,
+that adheres to the <code>QuadCurveDataSourceDelegate</code> protocol.</p>
+
+<pre><code>@interface AwesomeDataSource : NSObject QuadCurveDataSourceDelegate {
+    NSMutableArray *dataItems;
+}
+@end
+
+@implementation AwesomeDataSource
+
+- (id)init {
+    self = [super init];
+    if (self) {
+        dataItems = [NSMutableArray arrayWithObjects:@"1",@"2",@"3",@"4",@"5",@"6", nil];
+    }
+    return self;
+}
+
+#pragma mark - QuadCurveDataSourceDelegate Adherence
+
+- (int)numberOfMenuItems {
+    return [dataItems count];
+}
+
+- (id)dataObjectAtIndex:(NSInteger)itemIndex {
+    return [dataItems objectAtIndex:itemIndex];
+}
+</code></pre>
+
+<h3>Event Delegate</h3>
+
+<p>Setup a delegate object, this will usually be the view controller showing the
+<a href="Classes/QuadCurveMenu.html">QuadCurveMenu</a>, that adheres to the <a href="Protocols/QuadCurveMenuDelegate.html"><code>QuadCurveMenuDelegate</code></a> protocol.</p>
+
+<pre><code>@interface AwesomeViewController : UIViewController QuadCurveMenuDelegate
+
+@end
+
+- (void)quadCurveMenu:(QuadCurveMenu *)menu didTapMenu:(QuadCurveMenuItem *)mainMenuItem {
+    NSLog(@"Menu - Tapped");
+}
+
+- (void)quadCurveMenu:(QuadCurveMenu *)menu didLongPressMenu:(QuadCurveMenuItem *)mainMenuItem {
+    NSLog(@"Menu - Long Pressed");
+}
+
+- (void)quadCurveMenu:(QuadCurveMenu *)menu didTapMenuItem:(QuadCurveMenuItem *)menuItem {
+    NSLog(@"Menu Item (%@) - Tapped",menuItem.dataObject);
+}
+
+- (void)quadCurveMenu:(QuadCurveMenu *)menu didLongPressMenuItem:(QuadCurveMenuItem *)menuItem {
+    NSLog(@"Menu Item (%@) - Long Pressed",menuItem.dataObject);
+}
+
+- (void)quadCurveMenuWillExpand:(QuadCurveMenu *)menu {
+    NSLog(@"Menu - Will Expand");
+}
+
+- (void)quadCurveMenuDidExpand:(QuadCurveMenu *)menu {
+    NSLog(@"Menu - Did Expand");
+}
+
+- (void)quadCurveMenuWillClose:(QuadCurveMenu *)menu {
+    NSLog(@"Menu - Will Close");
+}
+
+- (void)quadCurveMenuDidClose:(QuadCurveMenu *)menu {
+    NSLog(@"Menu - Did Close");
+}
+
+- (BOOL)quadCurveMenuShouldClose:(QuadCurveMenu *)menu {
+    return YES;
+}
+
+- (BOOL)quadCurveMenuShouldExpand:(QuadCurveMenu *)menu {
+    return YES;
+}    
+</code></pre>
+
+<h3>Creating the Menu</h3>
+
+<p>Then within your view controller define the <a href="Classes/QuadCurveMenu.html"><code>QuadCurveMenu</code></a> with some bounds,
+your data source, and your event delegate.</p>
+
+<pre><code>AwesomeDataSource *dataSource = [[AwesomeDataSource alloc] init];
+
+QuadCurveMenu *menu = [[QuadCurveMenu alloc] initWithFrame:self.view.bounds  dataSource:dataSource];
+
+[menu setDelegate:self]
+[self.view addSubview:menu];
+</code></pre>
+
+<h3>Configuring the Menu</h3>
+
+<p>You can also use menu options:</p>
+
+<p>to locate the center of &ldquo;Add&rdquo; button:</p>
+
+<pre><code>menu.startPoint = CGPointMake(160.0, 240.0);
+</code></pre>
+
+<p>to set the rotate angle:</p>
+
+<pre><code>menu.rotateAngle = 0.0;
+</code></pre>
+
+<p>to set the whole menu angle:</p>
+
+<pre><code>menu.menuWholeAngle = M_PI * 2;
+</code></pre>
+
+<p>to set the delay of every menu flying out animation:</p>
+
+<pre><code>menu.timeOffset = 0.036f;
+</code></pre>
+
+<p>to adjust the bounce animation:</p>
+
+<pre><code>menu.farRadius = 140.0f;
+menu.nearRadius = 110.0f;
+</code></pre>
+
+<p>to set the distance between the &ldquo;Add&rdquo; button and Menu Items:</p>
+
+<pre><code>menu.endRadius = 120.0f;
+</code></pre>
+
+<h4>Changing the Images</h4>
+
+<p>You can configure the look of the center, main menu item, and the menu items
+that appear from the main menu. To do that you define an object that adheres
+to the protocol <code>QuadCurveMenuItemFactory</code>.</p>
+
+<pre><code>#pragma mark - QuadCurveMenuItemFactory Adherence
+
+- (QuadCurveMenuItem *)createMenuItemWithDataObject:(id)dataObject {
+
+    QuadCurveMenuItem *item = [[QuadCurveMenuItem alloc] initWithImage:image 
+                                                      highlightedImage:highlightImage
+                                                          contentImage:contentImage 
+                                               highlightedContentImage:highlightContentImage];
+
+    [item setDataObject:dataObject];
+
+    return item;
+}
+</code></pre>
+
+<p>Create an instance of that object and assign it to the QuadCurveMenu property <code>mainMenuItemFactory</code> or <code>menuItemFactory</code>.</p>
+
+<pre><code>id&lt;QuadCurveMenuItemFactory&gt; customMenuItemFactory = [[MyCustomMenuItemFactory alloc] init];
+
+menu.mainMenuItemFactory = customMenuItemFactory;
+menu.menuItemFactory = customMenuItemFactory;
+</code></pre>
+
+<p>By default the QuadCurveMenu uses <code>QuadCurveDefaultMenuItemFactory</code>. The main
+menu item is set by:</p>
+
+<pre><code>[QuadCurveDefaultMenuItemFactory defaultMainMenuItemFactory]
+</code></pre>
+
+<p>Each sub menu item are created by:</p>
+
+<pre><code>[QuadCurveDefaultMenuItemFactory defaultMenuItemFactory]
+</code></pre>
+
+<h4>Changing Animations</h4>
+
+<p>Several of the animations are customizable through properties. Viewing the
+example project you should see an <strong>Animations</strong> group which contains the
+default animations used in the application. You can customize them there or
+define your own and set them through properties on the <code>QuadCurveMenu</code>.</p>
+
+<p>Here is an example of swapping the default <em>selected</em> and <em>unselected</em>
+animations:</p>
+
+<pre><code>menu.selectedAnimation = [[QuadCurveShrinkAnimation alloc] init]
+menu.unselectedanimation = [[QuadCurveBlowupAnimation alloc] init]
+</code></pre>
+
+<p>An animation is an object that adheres to the protocol <a href="Protocols/QuadCurveAnimation.html"><code>QuadCurveAnimation</code></a>.</p>
+
+<pre><code>- (NSString *)animationName {
+    return @"blowup";
+}
+
+- (CAAnimationGroup *)animationForItem:(QuadCurveMenuItem *)item {
+
+    CGPoint point = item.center;
+
+    CAKeyframeAnimation *positionAnimation = [CAKeyframeAnimation animationWithKeyPath:@"position"];
+    positionAnimation.values = [NSArray arrayWithObjects:[NSValue valueWithCGPoint:point], nil];
+    positionAnimation.keyTimes = [NSArray arrayWithObjects: [NSNumber numberWithFloat:.3], nil]; 
+
+    CABasicAnimation *scaleAnimation = [CABasicAnimation animationWithKeyPath:@"transform"];
+    scaleAnimation.toValue = [NSValue valueWithCATransform3D:CATransform3DMakeScale(3, 3, 1)];
+
+    CABasicAnimation *opacityAnimation = [CABasicAnimation animationWithKeyPath:@"opacity"];
+    opacityAnimation.toValue  = [NSNumber numberWithFloat:0.0f];
+
+    CAAnimationGroup *animationgroup = [CAAnimationGroup animation];
+    animationgroup.animations = [NSArray arrayWithObjects:positionAnimation, scaleAnimation, opacityAnimation, nil];
+    animationgroup.duration = 0.3f;
+
+    return animationgroup;
+
+}
+</code></pre>
+
+<p>The name is used as the name for the animation within the layer. The animation
+itself is called with the <a href="Classes/QuadCurveMenuItem.html"><code>QuadCurveMenuItem</code></a> and should return the animation
+group that will be performed.</p>
+
+<p>!<a href="http://k.minus.com/ib1kHc4lnLB8bd.gif">screenshots</a> !<a href="http://k.minus.com/iovTFVTQQ192K.gif">screenshots</a> !<a href="http://k.minus.com/i4BrO2tfCJxzk.gif">screenshots</a></p>
+						
+						
+					</div>
+					
+                        
+                    
+					
+					
+					<div class="index-column">
+						<h2 class="index-title">Class References</h2>
+						<ul>
+							
+							<li><a href="Classes/AGMedallionView.html">AGMedallionView</a></li>
+							
+							<li><a href="Classes/QuadCurveBlowupAnimation.html">QuadCurveBlowupAnimation</a></li>
+							
+							<li><a href="Classes/QuadCurveDefaultDataSource.html">QuadCurveDefaultDataSource</a></li>
+							
+							<li><a href="Classes/QuadCurveDefaultMenuItemFactory.html">QuadCurveDefaultMenuItemFactory</a></li>
+							
+							<li><a href="Classes/QuadCurveItemCloseAnimation.html">QuadCurveItemCloseAnimation</a></li>
+							
+							<li><a href="Classes/QuadCurveItemExpandAnimation.html">QuadCurveItemExpandAnimation</a></li>
+							
+							<li><a href="Classes/QuadCurveLinearDirector.html">QuadCurveLinearDirector</a></li>
+							
+							<li><a href="Classes/QuadCurveMenu.html">QuadCurveMenu</a></li>
+							
+							<li><a href="Classes/QuadCurveMenuItem.html">QuadCurveMenuItem</a></li>
+							
+							<li><a href="Classes/QuadCurveRadialDirector.html">QuadCurveRadialDirector</a></li>
+							
+							<li><a href="Classes/QuadCurveShrinkAnimation.html">QuadCurveShrinkAnimation</a></li>
+							
+							<li><a href="Classes/QuadCurveTiltAnimation.html">QuadCurveTiltAnimation</a></li>
+							
+						</ul>
+					</div>
+					
+					
+						
+					<div class="index-column">
+						
+						<h2 class="index-title">Protocol References</h2>
+						<ul>
+							
+							<li><a href="Protocols/QuadCurveAnimation.html">QuadCurveAnimation</a></li>
+							
+							<li><a href="Protocols/QuadCurveDataSourceDelegate.html">QuadCurveDataSourceDelegate</a></li>
+							
+							<li><a href="Protocols/QuadCurveMenuDelegate.html">QuadCurveMenuDelegate</a></li>
+							
+							<li><a href="Protocols/QuadCurveMenuItemEventDelegate.html">QuadCurveMenuItemEventDelegate</a></li>
+							
+							<li><a href="Protocols/QuadCurveMenuItemFactory.html">QuadCurveMenuItemFactory</a></li>
+							
+							<li><a href="Protocols/QuadCurveMotionDirector.html">QuadCurveMotionDirector</a></li>
+							
+						</ul>
+						
+						
+					</div>
+					
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<a href="hierarchy.html">Next</a>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2013 Franklin Webber. All rights reserved. (Last updated: 2013-03-02)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.1 (build 840)</a>.</span></p>
+						
+	
+					</div>
+				</div>
+			</div>
+		</article>		
+	</body>
+</html>
